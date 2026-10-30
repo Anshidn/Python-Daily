@@ -2,7 +2,8 @@
 # inp : nums = [4,8,2,6,7]
 # out : [7,8,2,6,4]
 
-nums=[4,8,2,6,7]
+nums=input("Enter list : ")
+nums=list(nums)
 out=[]
 out.append(nums[-1])
 for i in nums[1:-1]:
