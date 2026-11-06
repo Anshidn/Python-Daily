@@ -11,10 +11,9 @@
 # listed=[6,7,2,9,1]
 listed=[10,7,4,8,9,4]
 
-# print(listed[:len(listed)//2])
-
 if len(listed)%2==0:
     print(listed[0:len(listed)//2])
+    
 else:
     print(listed[:(len(listed)+1)//2])
 
