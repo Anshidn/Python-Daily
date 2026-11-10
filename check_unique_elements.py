@@ -4,7 +4,7 @@
 
 # inp: [9,4,3,3,7,7]
 
-nums=[4,6,2,8,9,9]
+nums=[9,4,3,3,7,7]
 result=""
 for i in range(len(nums)):
     if nums[i] in nums[i+1:]:
